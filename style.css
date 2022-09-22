@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-div{
+    background-image: url(./images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 67% 161%;
+    height: 90vh;
+    padding: 2% 10%;
+}
+nav,.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav{
+    padding: 0 10%;
+} */
+.nav-items{
+    gap: 25px;
+}
+.nav-items h5{
+    color: #3e4794;
+}
+.signin-btn{
+    font-size: 10px;
+    padding: 5px 10px;
+}
+/* ****************** intro section **************** */
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* ***************** left section *************** */
+.left-section{
+    width: 25%;
+}
+.left-section h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: #3e4794;
+}
+.left-section h4{
+    padding: 50px 0;
+    font-size: 14px;
+    color: #3e4794;
+    line-height: 20px;
+    font-weight: lighter;
+}
+.left-section .learn-more-btn{
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+/* ****************** right section **************** */
+.imgs-div{
+    width: 75%;
+    position: relative;
+}
+.imgs-div img:nth-child(3){
+    height: 500px;
+    width: 67%;
+    position: relative;
+    left: 10px;
+}
+.imgs-div img:nth-child(2){
+    position: relative;
+    bottom: 125px;
+    left: 100px;
+    width: 20px;
+    height: 20px;
+}
+.imgs-div img:nth-child(1){
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+
+button{
+    background-image: linear-gradient(to right, #965cf2 , #ff8adc);
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
